@@ -178,7 +178,7 @@ export default class ReactTurntable extends PureComponent {
       const { width: fontWidth } = ctx.measureText(prize)
 
       if (fontVertical === true) {
-        ctx.translate(0, Math.min(fontWidth, 25))
+        ctx.translate(0, Math.min(fontWidth, 35))
         ctx.rotate((90 / 180) * Math.PI)
       }
 
